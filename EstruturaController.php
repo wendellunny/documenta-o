@@ -80,33 +80,7 @@ class EstruturaController extends Controller
             DB::rollBack();
             return back()->withErrors($e->getMessage());
         }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
 
